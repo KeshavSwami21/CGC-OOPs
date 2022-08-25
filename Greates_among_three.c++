@@ -78,7 +78,7 @@ Repeat:
     gat.Logic();
 
 Decision:
-    cout << "Do you want Repeat an calculation (y/n): ";
+    cout << "Do you want to compare again (y/n): ";
     cin >> opt;
 
     // Storing the first character of the array "opt" to r_opt to convert it to lowercase
