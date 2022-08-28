@@ -46,17 +46,14 @@ public:
         // Comparing num2 from num3
         else if (num2 > num3)
         {
-            // Comparing num2 from num3
-            if (num2 > num3)
-            {
-                cout << num2 << " is greater then " << num1 << " and " << num2 << "\n\n";
-            }
-            // Condition is failed, so num3 is greater
-            else
-            {
 
-                cout << num3 << " is greater then " << num1 << " and " << num2 << "\n\n";
-            }
+            cout << num2 << " is greater then " << num1 << " and " << num3 << "\n\n";
+        }
+        // Condition is failed, so num3 is greater
+        else
+        {
+
+            cout << num3 << " is greater then " << num1 << " and " << num2 << "\n\n";
         }
     }
 };
@@ -87,7 +84,7 @@ Decision:
     switch (tolower(r_opt))
     {
     case 'y':
-        cout<<endl;
+        cout << endl;
         goto Repeat;
         break;
 
