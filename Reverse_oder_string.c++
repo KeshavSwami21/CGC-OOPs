@@ -70,7 +70,7 @@ public:
 
 int main()
 {
-    cout << "This program is to print a sentence in reverse form withou loosing the position of words.\n\n";
+    cout << "This program is to print a sentence in reverse form without loosing the position of words.\n\n";
 
     char opt[3];
 
