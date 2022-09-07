@@ -5,8 +5,9 @@ class def
 {
     int x,y;
     public:
-    def(int a,int b=0)
+    def(int a, int b=0)
     {
+        
         x= a;
         y= b;
     }
