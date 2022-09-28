@@ -5,10 +5,10 @@ class complex{
     public:
     void get()
     {
-        cout<<"Enter the values";
-        cout<<"r="<<endl;
+        cout<<"Enter the values:\n";
+        cout<<"r = ";
         cin>>r;
-        cout<<"i="<<endl;
+        cout<<"i = ";
         cin>>i;
     }
     void operator ++()
@@ -23,14 +23,16 @@ class complex{
     }
     void show()
     {
-        cout<<"The value r(a+i)"<<endl;
+        cout<<"The value is "<<r<<"a +"<<i<<endl;
     }
 };
 int main()
 {
-    complex c1()
-    c1.get()
+    complex c1;
+    c1.get();
     ++c1;
+    c1.show();
+    --c1;
     c1.show();
 
 
