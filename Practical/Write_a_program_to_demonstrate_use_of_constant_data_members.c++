@@ -5,7 +5,7 @@ class abc
     int data;
 
 public:
-    void assign()
+    void assign()c
     {
         data = 20;
     }
