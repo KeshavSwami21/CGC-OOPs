@@ -10,12 +10,13 @@ public:
     {
         a = x;
         b = y;
-        cout << "the values of a and b are";
+        cout << "The values of a and b are: \n";
         cout << a << endl;
+        cout << b << endl;
     }
     void sum()
     {
-        cout << "sum is" << a + b;
+        cout << "Sum is: " << a + b;
     }
 };
 int main()
@@ -26,5 +27,3 @@ int main()
     al.sum();
     return 0;
 }
-
-

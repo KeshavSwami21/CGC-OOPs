@@ -1,17 +1,19 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-class complex{
+class complex
+{
     int i, r;
-    public:
+
+public:
     void get()
     {
-        cout<<"Enter the values:\n";
-        cout<<"r = ";
-        cin>>r;
-        cout<<"i = ";
-        cin>>i;
+        cout << "Enter the values:\n";
+        cout << "r = ";
+        cin >> r;
+        cout << "i = ";
+        cin >> i;
     }
-    void operator ++()
+    void operator++()
     {
         ++r;
         ++i;
@@ -23,7 +25,7 @@ class complex{
     }
     void show()
     {
-        cout<<"The value is "<<r<<"a +"<<i<<endl;
+        cout << "The value is " << r << "a +" << i << endl;
     }
 };
 int main()
@@ -34,8 +36,4 @@ int main()
     c1.show();
     --c1;
     c1.show();
-
-
-
-
 }
